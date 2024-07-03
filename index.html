@@ -221,9 +221,9 @@
         <shot-detection-viz v-if="current_view == 'Shot Detection'" id="shot_detection" v-bind:json_data="json_data"
             v-bind:video_info="video_info" v-on:shot-clicked="jump_video"></shot-detection-viz>
 
-        <speech-transcription-viz v-if="current_view == 'Speech Transcription'" id="speech_transcription"
+<!--         <speech-transcription-viz v-if="current_view == 'Speech Transcription'" id="speech_transcription"
             v-bind:json_data="json_data" v-bind:video_info="video_info" v-on:word-clicked="jump_video">
-        </speech-transcription-viz>
+        </speech-transcription-viz> -->
 
         <person-detection-viz v-if="current_view == 'Person Detection'" id="person_detection"
             v-bind:json_data="json_data" v-bind:video_info="video_info" v-on:segment-clicked="jump_video">
